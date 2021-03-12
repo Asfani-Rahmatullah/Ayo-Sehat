@@ -1,0 +1,180 @@
+* {
+			margin: 0px;
+    padding: 0px;
+    }
+    body {
+        font-size: 14px;
+        font-family: Arial;
+        margin:0;
+        display:grid;
+        grid-template-columns: auto;
+    }
+    #heading{
+        float: left;
+        width: 640px;
+    }
+    #heading a {
+        line-height: 65px;
+        text-decoration: none;
+        padding-left: 60px;
+        color:#FFF;
+        font-size: 40px;
+    }
+    #menu {
+        background:#ce1b75;
+        width: 100%;
+        height: 65px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+        #menu ul {
+            list-style: none;
+
+        }
+        #menu ul li {
+            float: right;
+            line-height: 65px
+        }
+        #menu ul li a {
+            float:left; 
+            width:100px; 
+            display:block; 
+            text-align:center; 
+            color:#FFF;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-decoration:none; 
+        }
+        #menu ul ul {
+            display:none; 
+            list-style:none; 
+            position:absolute; 
+            background-color:#ce1b75;
+            float: none;
+            top:65px;
+        }
+        #menu ul li a:hover {
+            background-color:#416eab; 
+            display:grid;
+        }
+        #menu ul li:hover ul {
+            display:grid;
+        }
+        #menu ul ul li a {
+            display:grid; 
+            height: 60px;
+            line-height: 60px;
+        }
+        .container {
+            display:grid;
+            grid-template-columns: 50% auto;
+            padding: 4em 4em;
+            box-shadow: 2px 0px 1px ;
+            color: #416eab;
+        }
+        .container2 {
+            display:grid;
+            grid-template-columns: 30% auto;
+            padding: 4em 4em;
+            box-shadow: 2px 0px 1px ;
+            color: #416eab;
+        }
+        .container3{
+            display:grid;
+            grid-template-columns: 30% auto;
+            padding: 4em 4em;
+            box-shadow: 2px 0px 1px ;
+            color: #ce1b75;
+        }
+        img { 
+            width:250px;
+            justify-self:center;
+        }
+        h1{
+            text-align: center;
+            /*ketebalan font*/
+            font-weight: 300;
+        }
+
+        h3{
+            text-align:center;
+        }
+         
+        .tulisan_login{
+            text-align: center;
+            /*membuat semua huruf menjadi kapital*/
+            text-transform: uppercase;
+        }
+         
+        .field{
+            width: 350px;
+            background: white;
+            /*meletakkan form ke tengah*/
+            margin: 80px auto;
+            padding: 30px 20px;
+            box-shadow: 0px 0px 1px ;
+        }
+         
+        label{
+            font-size: 11pt;
+        }
+        .bigger{
+            font-size: 14pt;
+        }
+         
+        .form_login{
+            /*membuat lebar form penuh*/
+            box-sizing : border-box;
+            width: 100%;
+            padding: 10px;
+            font-size: 11pt;
+            margin-bottom: 20px;
+        }
+
+        input {
+            /*membuat lebar form penuh*/
+            box-sizing : border-box;
+            width: 100%;
+            padding: 10px;
+            font-size: 11pt;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+         
+        .tombol_login{
+            background: #ce1b75;
+            text-align: center;
+            color: white;
+            font-size: 11pt;
+            width: 40%;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            margin: 10px;
+        }
+        .tengah{
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+        }
+         
+        .link{
+            color: #232323;
+            font-size: 10pt;
+        }
+        
+        .peringatanLog{
+            color: red;
+            text-align: center;
+        }
+        .topik{
+            font-size: 20px;
+        }
+        .daftar{
+            list-style-type:none;
+        }
+        .peringatan{
+            color: red;
+        }
+
